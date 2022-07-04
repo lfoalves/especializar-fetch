@@ -1,0 +1,49 @@
+body {
+    background-color: #444;
+    color: aliceblue;
+    font-size: 20pt;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 3rem;
+}
+
+#apiResult {
+    width: 500px;
+    font-size: 15pt;
+    padding: 2rem;
+    background-color: #111;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.card {
+    background-color: palevioletred;
+    padding: 2rem;
+    border-radius: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#avatarUser {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 5px rgb(255, 192, 203);
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+}
